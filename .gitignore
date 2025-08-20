@@ -1,0 +1,50 @@
+# Flutter/Dart
+.dart_tool/
+.buildlog/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+**/GeneratedPluginRegistrant.*
+
+# IntelliJ/VSCode
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+*.env
+*.env.*
+
+# Firebase/Google Services (avoid committing service config files)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+web/firebase-messaging-sw.js
+
+# Local keys/config
+lib/config/secret_*.dart
+lib/**/secrets.dart
+
+# Crashlytics
+**/crashlytics-build.properties
+**/fabric/*.properties
+
+# Logs
+*.log
+
+# Other
+.sentryclirc
+*.keystore
+*.jks
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output

@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
+import '../config/ai_config.dart';
 
 class AIVerificationService {
-  static const String _baseUrl = 'https://api-inference.huggingface.co/models';
-  static const String _apiKey =
-      'YOUR_HUGGING_FACE_API_KEY'; // Get free API key from huggingface.co
+  static const String _baseUrl = AIConfig.baseUrl;
+  static const String _apiKey = AIConfig.huggingFaceApiKey;
 
   // Using BLIP-2 for image captioning and analysis
   static const String _visionModel = 'Salesforce/blip2-opt-2.7b';

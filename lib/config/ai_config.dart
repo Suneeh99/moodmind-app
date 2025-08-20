@@ -1,7 +1,8 @@
 class AIConfig {
   // Hugging Face public inference API
   // Leave the key empty to use ONLY local (free) verification.
-  static const String huggingFaceApiKey = 'YOUR_HUGGING_FACE_API_KEY';
+  static const String huggingFaceApiKey =
+      String.fromEnvironment('HUGGING_FACE_API_KEY', defaultValue: '');
 
   static const String baseUrl = 'https://api-inference.huggingface.co/models';
 
