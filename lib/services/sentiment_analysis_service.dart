@@ -3,7 +3,8 @@ import 'package:http/http.dart' as http;
 
 class SentimentAnalysisService {
   static const String _apiUrl = 'https://api.meaningcloud.com/sentiment-2.1';
-  static const String _apiKey = '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'; // Replace with actual API key
+  static const String _apiKey =
+      'YOUR_HUGGING_FACE_API_KEY'; // Replace with actual API key
 
   // Reduced timeout for better UX
   static const Duration _timeout = Duration(seconds: 3);
