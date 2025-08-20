@@ -153,39 +153,8 @@ If you add Firebase:
 
 ---
 
-## 🗂️ Directory Structure
-
-```
-lib/
-├── config/
-│   └── ai_config.dart
-├── services/
-│   ├── enhanced_ai_service.dart
-│   ├── ai_verification_service.dart
-│   └── sentiment_analysis_service.dart
-└── providers/
-    └── auth_provider.dart
-```
-
----
-
-## 🛠 Troubleshooting
-
-- ❌ GitHub push blocked due to secrets: Remove committed keys, rewrite history with `git filter-repo`, and rotate tokens.
-- ⚠️ API 503 from Hugging Face: Model is loading; app retries then falls back to local.
-- ❓ Empty API keys: App runs in local-only mode by design.
-- 🐢 Slow network calls: Adjust timeouts/retries in `AIConfig`.
-
----
-
 ## 🤝 Contributing
 
 - Fork, branch, and open a PR
 - Keep secrets out of commits
 - Prefer environment defines over hardcoding
-
----
-
-## 📝 License
-
-Add your preferred license here (e.g., MIT).
