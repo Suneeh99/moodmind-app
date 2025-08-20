@@ -1,4 +1,4 @@
-# MoodMind App
+# MoodMind Mobile App
 
 A Flutter app that helps users verify task completion using AI-assisted image analysis with free-tier Hugging Face models, plus fast local fallbacks. Sentiment analysis is available via MeaningCloud (optional) with an offline fallback. Secrets are managed securely via compile-time environment defines (no keys in the repo).
 
